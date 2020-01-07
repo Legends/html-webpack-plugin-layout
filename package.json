@@ -1,0 +1,22 @@
+{
+  "name": "html-webpack-plugin-layout",
+  "version": "1.0.0",
+  "description": "Use a common layout wrapper for multiple templates",
+  "scripts": {
+    "start": "webpack-dev-server --port 8080",
+    "dev": "webpack",
+    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js --verbose --display-error-details"
+  },
+  "dependencies": {
+    "ejs-loader": "0.3.5",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.40.1",
+    "webpack-cli": "3.3.8",
+    "webpack-dev-server": "3.8.0"
+  },
+  "devDependencies": {
+    "file-loader": "^5.0.2",
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
